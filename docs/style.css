@@ -1,54 +1,77 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  background-color: #f9fafc;
-  color: #333;
+  background-color: #f3f0ff; /* Soft lavender background */
+  color: #2a2a2a; /* Dark gray text */
 }
 
 header {
-  background: #004aad;
+  background: #6a5acd; /* Deep lavender */
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
+  letter-spacing: 1px;
 }
 
 nav a {
-  color: white;
+  color: #e8e4ff; /* Very soft lavender */
   text-decoration: none;
   margin: 0 15px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 nav a:hover {
+  color: #ffffff;
   text-decoration: underline;
 }
 
 section {
-  padding: 30px;
+  padding: 35px;
   text-align: center;
+  background-color: #ffffff;
+  margin: 25px auto;
+  width: 85%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(106, 90, 205, 0.15);
 }
 
 .profile-pic {
   width: 150px;
   border-radius: 50%;
   margin: 15px 0;
+  border: 4px solid #6a5acd; /* Lavender border */
 }
 
 table {
   margin: 0 auto;
   border-collapse: collapse;
-  width: 60%;
+  width: 70%;
+  background: white;
+  box-shadow: 0 3px 10px rgba(106, 90, 205, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-th, td {
-  border: 1px solid #ccc;
-  padding: 10px;
+th {
+  background: #6a5acd; /* Deep lavender */
+  color: white;
+  padding: 12px;
   text-align: left;
 }
 
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f5ff; /* mild lavender row */
+}
+
 footer {
-  background: #004aad;
+  background: #6a5acd;
   color: white;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
+  font-size: 14px;
 }
